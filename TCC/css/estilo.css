@@ -1,0 +1,116 @@
+  body{
+    margin: 0 auto;
+    background-image: url(../img/estagio.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .container{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    background-color: rgba(100, 100, 100, 0.7);
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 120px;
+  }
+  .container-cadastro{
+    width: 500px;
+    height: 650px;
+    text-align: center;
+    background-color: rgba(100, 100, 100, 0.7);
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+  .container-cadastro img{
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: -30px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #fff;
+  }
+  .container-cadastro h6{
+    font-size: 38px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .container-cadastro select{
+   height: 45px;
+   width: 335px;
+   font-size: 18px;
+   margin-top: -20px;
+   margin-bottom: 30px;
+   background-color: #fff;
+   padding-left: 30px;
+  }
+  .container-cadastro input{
+   height: 45px;
+   width: 300px;
+   font-size: 18px;
+   margin-top: -20px;
+   margin-bottom: 30px;
+   background-color: #fff;
+   padding-left: 30px;
+  }
+  .container-cadastro .form-input::before{
+    content: "\007";
+    position: absolute;
+    font-size: 30px;
+  }
+  .container-cadastro .form-button{
+    background-color: #555555;
+    font-size: 20px;
+    border-radius: 12px;
+    width: 200px;
+    margin-left: 32px;
+    margin-top: 25px;
+    padding-right: 25px;
+    text-align: center;
+    float: left;
+  }
+  .container-cadastro .form-button:hover {
+    background-color: #800000;
+    color: white;
+}
+  .container img{
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #fff;
+  }
+
+  input{
+   height: 45px;
+   width: 300px;
+   font-size: 18px;
+   margin-bottom: 40px;
+   background-color: #fff;
+   padding-left: 30px;
+  }
+  .form-input::before{
+    content: "\007";
+    position: absolute;
+    font-size: 30px;
+  }
+  .form-button{
+    background-color: #555555;
+    font-size: 20px;
+    border-radius: 12px;
+    width: 200px;
+    margin-left: 32px;
+    margin-top: 25px;
+    padding-right: 25px;
+    text-align: center;
+    float: left;
+  }
+  .form-button:hover {
+    background-color: #800000;
+    color: white;
+}

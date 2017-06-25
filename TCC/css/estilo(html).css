@@ -1,0 +1,355 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background: #E0DEDE;
+	font-family:Arial;
+	font-size:12px;
+}
+/*Estrutura*/
+.geral {
+	width:962px;
+	margin:-10px auto 0;
+}
+.topo{
+	border-bottom:1px solid #000;
+	padding:0 0 20px 0;
+}
+.rodape{
+	margin-top:120px;
+	background: #800000;
+	padding:10px 0;
+	clear:both
+}
+.conteudo{
+	padding-top: 170px;
+}
+
+/*TOPO*/
+ tr{
+	 text-align: center;
+ }
+h1{
+	background: url(img/img/bayeux - slider.jpg)no-repeat;
+	width:100%;
+	height:110px;
+	text-indent:-999px;
+}
+
+.boas-vindas li{
+	float: left;
+	padding-right: 450px;
+	padding-top: 20px;
+	font-size: 16px;
+	color: #fff;
+}
+#imagem-topo img{
+	border-top: 17px solid #000;
+	width: 99%;
+	height: 100px;
+	position: fixed;
+}
+#menu ul {
+		width: 99%;
+		position: fixed;
+		list-style-type: none;
+		margin-top: 115px;
+		padding:0px;
+    overflow: hidden;
+		line-height:50px;
+    background-color:#800000;
+		border-bottom: 2px solid #000;
+}
+#menu li {
+	float: right;
+}
+#menu li.welcome {
+	float: left;
+	padding-left: 50px;
+}
+#menu li a {
+    padding: 10px 20px 10px;
+		display:block;
+		text-align: center;
+		font-weight:bold;
+		text-decoration:none;
+		font-size:18px;
+		color: white;
+}
+#menu ul li a:hover {
+    background-color:#000;
+}
+/*CONTEUDO*/
+.slider{
+	background-color: rgba(100, 100, 100, 0.5);
+	margin:0 0 0 0;
+	padding:20px 5px 40px 0;
+	border:1px solid #000;
+	/*border-top: 1px solid #000;*/
+	width: 100%;
+}
+.slider h2{
+	margin-left: 20px;
+	font-family: sans-serif;
+}
+.button-align{
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+/*input[type=text] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}*/
+.container{
+  display: block;
+	background-color: rgba(50, 50, 50, 0.5);
+	width: 60%;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	padding-top: 10px;
+	border: 1px solid #000;
+}
+.container h2{
+	font-size: 32px;
+	text-align: center;
+	font-family: sans-serif;
+}
+.container label{
+	margin-left: 150px;
+	font-size: 24px;
+	font-family: sans-serif;
+}
+.container .info-form{
+	font-size: 28px;
+	margin-left: 120px;
+}
+.container input{
+	font-family: sans-serif;
+}
+.container .form-button{
+	background-color: #800000;
+	font-size: 20px;
+	border-radius: 12px;
+	width: 250px;
+	text-align: center;
+	margin: auto;
+	height: 35px;
+	color: white;
+	margin-left: 170px;
+}
+.textarea{
+	width: 50%;
+	height: 100px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	resize: none;
+	margin-left: 150px;
+}
+.container-instrucao h2{
+	font-size: 22px;
+}
+.container-instrucao p{
+	font-size: 18px;
+}
+.chamadas {margin:20px 0 0 0;}
+.chamadas .chamadas_coluna1{width:285px; float:left;}
+.chamadas .chamadas_coluna2{width:285px; float:left; margin-left:50px}
+.chamadas .chamadas_coluna3{width:285px; float:left; margin-left:50px}
+.chamadas .chamadas_coluna1 h2{
+	font-size:26px;
+	font-family:Arial;
+}
+.chamadas .chamadas_coluna2 h3{
+	font-size:26px;
+	font-family:Arial;
+}
+.chamadas .chamadas_coluna3 h4{
+	font-size:26px;
+	font-family:Arial;
+}
+.chamadas p {
+	width:283px;
+	color:#333;
+	margin-bottom:20px;
+	line-height:150%;
+}
+
+.portfolio {
+	background-color: rgba(100, 100, 100, 0.5);
+	margin:auto;
+	border-bottom:1px solid #000;
+	border-right:1px solid #000;
+	border-left:1px solid #000;
+	padding:20px 5px 40px 0;
+	width: 100%
+}
+.portfolio h5{
+	margin-left: 20px;
+	font-size:26px;
+	font-family:sans-serif;
+}
+.cursosimg{
+	border-radius: 50%;
+}
+.portfolio ul{margin-top:10px;}
+.portfolio ul li{display:inline; margin-left:30px;}
+.rede{
+	margin-top:20px;
+	background-color: rgba(100, 100, 100, 0.5);
+}
+.rede .blog{width:662px; float:left;}
+.rede .blog h6{
+	font-size:26px;
+	font-family:Arial;
+}
+.rede .blog p{
+	color:#333;
+	line-height:150%;
+	margin-top:20px;
+	width:662px;
+}
+.social{float:right; width:180px;padding-bottom: 30px;}
+.social h6{
+	font-size:26px;
+	font-family:Arial;
+}
+.social ul{margin-top:10px;}
+.social ul li{margin:0; float:left;}
+.social ul li a.twitter{
+	background: url(img/images.jpg)no-repeat;
+	width:44px;
+	height:44px;
+	text-indent:-9999px;
+	display:block;
+}
+social ul li a.facebook{
+	background: url(img/facebook.png)no-repeat;
+	width:44px;
+	height:44px;
+	text-indent:-9999px;
+	display:block;
+}
+social ul li a.flickr{
+	background: url(img/images.jpg)no-repeat;
+	width:44px;
+	height:44px;
+	text-indent:-9999px;
+	display:block;
+}
+social ul li a.rss{
+	background: url(img/images.jpg)no-repeat;
+	width:44px;
+	height:44px;
+	text-indent:-9999px;
+	display:block;
+}
+/*rodape*/
+.rodape .conteudo-footer{
+	width:97%;
+	margin:0 auto;
+	padding:20px;
+
+}
+.rodape .conteudo-footer ul{width:350px;}
+.rodape .conteudo-footer ul li{
+	display:inline;
+	border-left:1px solid #FFF;
+	padding:0 4px 0 4px;
+}
+.rodape .conteudo-footer ul li .noborder{border:none;}
+.rodape .conteudo-footer ul li a{color:#FFF; text-decoration:none;}
+.rodape .conteudo-footer ul li a: hover{text-decoration:underline;}
+.rodape .conteudo-footer p{ color:#FFF; margin-top:8px; margin-left:4px;}
+.rodape .conteudo-footer H6{
+	background:url(img/bayeux.png) no-repeat;
+	width:127px;
+	height:86px;
+	text-indent: -9999;
+	float:right;
+	margin-top:-72px;
+	color: white;
+	font-size: 12px;
+}
+table {
+	margin: 3px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+td {
+	font-size: 15px;
+	background-color: #808080;
+	height: 25px;
+	font-family: sans-serif;
+}
+.titulo_table {
+	font-family: sans-serif;
+
+}
+.form-button{
+	background-color: #800000;
+	font-size: 20px;
+	border-radius: 12px;
+	width: 250px;
+	text-align: center;
+	margin: auto;
+	height: 35px;
+	color: white;
+}
+.form-button:hover {
+	background-color: #000;
+	color: white;
+}
+/*Cadastro de Empresa*/
+
+.cadastro{
+	border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.cadastro H6{
+	font-size: 30px;
+	margin: auto;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.cadastro label{
+	font-size: 20px;
+	margin: auto;
+	text-align: center;
+}
+.cadastro input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.cadastro .form-button{
+	background-color: #800000;
+	font-size: 20px;
+	border-radius: 12px;
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+	height: 35px;
+	color: white;
+  border: none;
+  cursor: pointer;
+}
+.cadastro .form-button:hover {
+	background-color: #000;
+	color: white;
+}
+.anexo{
+	margin-top: 150px;
+}
